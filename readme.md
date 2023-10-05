@@ -1,60 +1,54 @@
-![Captura de Tela do Projeto](./cover.png)
+![Project Cover](./cover.png)
 
-# Projeto de Teclado Virtual
+# Virtual Keyboard Project
 
-Este projeto de teclado virtual está sendo desenvolvido com as tecnologias HTML, CSS e JavaScript ele foi projetado para ser responsivo e funcional em diversos dispositivos. Até o momento, as funções dos botões, do espaço e do backspace estão implementadas. Futuramente, planejo adicionar as funções de acentuação, shift e caps lock.
+This virtual keyboard project is being developed using HTML, CSS, and JavaScript. It is designed to be responsive and functional on various devices. Currently, the functions of the buttons, space, and backspace are implemented. In the future, I plan to add features such as accentuation, shift, and caps lock.
 
-## Sumário
+## Table of Contents
 
-- [Projeto de Teclado Virtual](#projeto-de-teclado-virtual)
-  - [Funcionalidades](#funcionalidades)
-  - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-  - [Instalação e Uso](#instalação-e-uso)
-  - [Aprendizado e Observações](#aprendizado-e-observações)
-  - [Próximas Etapas](#próximas-etapas)
-  - [Redes sociais](#redes-sociais)
-  - [Créditos](#créditos)
+- [Virtual Keyboard Project](#virtual-keyboard-project)
+  - [Functionalities](#functionalities)
+  - [Technologies Used](#technologies-used)
+  - [Installation and Usage](#installation-and-usage)
+  - [Learning and Observations](#learning-and-observations)
+  - [Next Steps](#next-steps)
+  - [Social Media](#social-media)
+  - [Credits](#credits)
 
+## Functionalities
 
+- Typing text using buttons on the virtual keyboard.
+- Spacebar for inserting spaces between words.
+- Backspace for deleting typed characters.
 
-## Funcionalidades
-
-- Digitação de texto usando botões no teclado virtual.
-- Espaço para inserção de espaço entre palavras.
-- Backspace para exclusão de caracteres digitados.
-
-
-## Tecnologias Utilizadas
+## Technologies Used
 
 - HTML
 - CSS
 - JavaScript
 
-## Instalação e Uso
+## Installation and Usage
 
-1. Clone este repositório ou baixe os arquivos.
-2. Abra o arquivo `index.html` em um navegador da web.
+1. Clone this repository or download the files.
+2. Open the `index.html` file in a web browser.
 
-## Aprendizado e Observações
+## Learning and Observations
 
-Durante este projeto, aprendi a criar um teclado virtual responsivo e a manipular o DOM com JavaScript para lidar com a digitação e outras funções do teclado.
+During this project, I learned how to create a responsive virtual keyboard and manipulate the DOM with JavaScript to handle typing and other keyboard functions.
 
-## Próximas Etapas
+## Next Steps
 
-As próximas etapas para este projeto incluem:
-- Adicionar acentuação.
-- Implementar funcionalidades de shift e caps lock.
-- Aprimorar a interface de usuário.
+The next steps for this project include:
+- Adding accentuation.
+- Implementing shift and caps lock functionalities.
+- Improving the user interface.
 
-## Redes Sociais
+## Social Media
 
-Conecte-se comigo nas redes sociais:
+Connect with me on social media:
 - LinkedIn: [Lucas Lacerda](https://www.linkedin.com/in/lucas-lacerda-066316186/)
 - GitHub: [Lucasdelacerda](https://github.com/Lucasdelacerda)
 
+## Credits
 
-
-
-## Créditos
-
-- Autor: Lucas de Lacerda
+- Author: Lucas de Lacerda
