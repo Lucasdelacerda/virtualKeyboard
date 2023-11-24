@@ -16,18 +16,27 @@ body {
 }
 
 .screen {
-    height:50vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: #32593D;
+
 }
 
 #display {
-    border: 2px solid black;
-    max-width: 50%;
-    width: 100%;
-    height: 150px;
+    border: none;
+    width: 90%;
+    height: 4.7rem;
+    font-size: 4rem;
+    background: rgba(52, 133, 74, 0.973);
+    color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#display::placeholder {
+    color: rgba(255, 255, 255, 0.435);
 }
 
 .keyboard_container {
@@ -46,7 +55,6 @@ body {
     line-height: normal;
     font-size: 30px;
     font-weight: 400;
-    color: #F8F8F8;
     width: 100%;
     max-width: 785px;
     height: auto;
@@ -54,20 +62,19 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 0.18em;
-    padding: 5px 0;
+    padding: 15px 0;
 
 }
 
-button {
+.key {
     border: 1.5px solid rgba(255, 255, 255, 0.25);
     border-radius: 6.154px;
+    padding: 5px 0;
     width: 5.0em;
     height: 3em;
     background: rgba(255, 255, 255, 0.2);
     color: white;
 }
-
-
 
 .line {
     display: flex;
@@ -80,6 +87,10 @@ button {
 
 .clicked {
     background: rgba(255, 255, 255, 0.4);
+}
+
+.keys.remove {
+    animation: keys_animation 0.5s forwards;
 }
 
 #spacebar {

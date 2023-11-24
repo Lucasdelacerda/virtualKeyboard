@@ -1,4 +1,4 @@
-![Project Cover](./cover.png)
+![Project Cover](./assets/cover.png)
 
 # Virtual Keyboard Project
 
@@ -40,8 +40,6 @@ During this project, I learned how to create a responsive virtual keyboard and m
 
 The next steps for this project include:
 - Adding accentuation.
-- Implementing shift and caps lock functionalities.
-- Improving the user interface.
 
 ## Social Media
 
