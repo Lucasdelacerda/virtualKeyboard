@@ -77,14 +77,41 @@ body {
 }
 
 .line {
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 4px;
-    width: 100%
+    width: 100%;
 }
 
+.acentuation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    position: absolute;
+    background: rgb(87, 144, 103);
+    border-radius: 6.154px;
+    padding: 0.5rem;    
+}
+
+#e-acentuation-container {
+    bottom: 4.2rem;
+    left: 13%;
+    width:19.12%;
+}
+#o-acentuation-container{
+  bottom:4.2rem;
+  left:63.5%;
+  width:27.53%;
+}
+#a-acentuation-container{
+    bottom:4.2rem;
+    left:0%;
+    width:27.53%;
+  }
 .clicked {
     background: rgba(255, 255, 255, 0.4);
 }

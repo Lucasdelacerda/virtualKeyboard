@@ -1,4 +1,4 @@
-const numbersAndLetters = document.querySelectorAll(".numbers-letters");
+const numbersAndLetters = document.querySelectorAll(".numbers-letters, .acentuation-key");
 const keys = document.querySelectorAll('.key')
 const display = document.getElementById("display")
 let isUpperCase = false;

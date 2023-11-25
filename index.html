@@ -7,7 +7,7 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
     <link rel="stylesheet" type="text/css" href="./style.css">
-    <title>Teclado Virtual</title>
+    <title>Virtual keyboard</title>
 </head>
 
 <body>
@@ -39,13 +39,22 @@
                 <div class="line2 line">
                     <button class="key numbers-letters">q</button>
                     <button class="key numbers-letters">w</button>
-                    <button class="key numbers-letters">e</button>
+                   <div id="e-acentuation-container" class="acentuation-container">
+                        <button class="acentuation-key key">é</button>
+                        <button class="acentuation-key key">ê</button>
+                    </div>
+                    <button class="key numbers-letters" onclick="eOutside()">e</button>
                     <button class="key numbers-letters">r</button>
                     <button class="key numbers-letters">t</button>
                     <button class="key numbers-letters">y</button>
                     <button class="key numbers-letters">u</button>
                     <button class="key numbers-letters">i</button>
-                    <button class="key numbers-letters">o</button>
+                    <button class="key numbers-letters" onclick="oOutside()">o</button>
+                   <div id="o-acentuation-container" class="acentuation-container">
+                        <button class="acentuation-key key">ó</button>
+                        <button class="acentuation-key key">ô</button>
+                        <button class="acentuation-key key">õ</button>
+                   </div>
                     <button class="key numbers-letters">p</button>
                     <button class="key numbers-letters">ç</button>
 
@@ -56,7 +65,12 @@
                             shift
                         </span>
                     </button>
-                    <button class="key numbers-letters">a</button>
+                    <button class="key numbers-letters" onclick="aOutside()">a</button>
+                    <div id="a-acentuation-container" class="acentuation-container">
+                        <button class="acentuation-key key">á</button>
+                        <button class="acentuation-key key">ã</button>
+                        <button class="acentuation-key key">â</button>
+                    </div>
                     <button class="key numbers-letters">s</button>
                     <button class="key numbers-letters">d</button>
                     <button class="key numbers-letters">f</button>
@@ -91,7 +105,7 @@
             </div>
         </section>
     </main>
-    <script src="/index.js">
+    <script src="index.js">
     </script>
 </body>
 
