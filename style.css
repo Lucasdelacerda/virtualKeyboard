@@ -87,7 +87,7 @@ body {
 }
 
 .acentuation-container {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     gap: 4px;
@@ -101,13 +101,16 @@ body {
     bottom: 4.2rem;
     left: 13%;
     width:19.12%;
+    display: none;
 }
 #o-acentuation-container{
   bottom:4.2rem;
   left:63.5%;
   width:27.53%;
+  display: none;
 }
 #a-acentuation-container{
+    display: none;
     bottom:4.2rem;
     left:0%;
     width:27.53%;

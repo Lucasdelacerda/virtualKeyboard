@@ -2,12 +2,21 @@ const numbersAndLetters = document.querySelectorAll(".numbers-letters, .acentuat
 const keys = document.querySelectorAll('.key')
 const display = document.getElementById("display")
 let isUpperCase = false;
-
 const specialKeys = document.querySelectorAll('.special-key')
 const spaces = document.getElementById('spacebar')
 const shift = document.getElementById('shift-caps')
 const enter = document.getElementById('enter')
 const backspace = document.getElementById('backspace')
+const aAcentuationContainer = document.getElementById('a-acentuation-container')
+const eAcentuationContainer = document.getElementById('e-acentuation-container')
+const oAcentuationContainer = document.getElementById('o-acentuation-container')
+const acentuationContainer = document.getElementsByClassName('acentuation-container')
+const aButton = document.getElementById('a-button')
+const eButton = document.getElementById('e-button')
+const oButton = document.getElementById('o-button')
+
+const acentuationButtons = document.querySelectorAll(".acentuation-container .key")
+
 
 //key effect and value
 numbersAndLetters.forEach((botao) => {
@@ -20,6 +29,7 @@ numbersAndLetters.forEach((botao) => {
     }, 100);
   });
 });
+
 //special keys values
 
 backspace.addEventListener('click', () => {
@@ -61,6 +71,8 @@ window.addEventListener('keydown', function (e) {
       keys[i].classList.add('clicked')
     }
   }
+
+
   if (e.code === 'Space') {
     spaces.classList.add('clicked')
   }
@@ -88,7 +100,6 @@ window.addEventListener('keydown', function (e) {
         upper.innerText = upper.innerText.toLowerCase();
       }
     })
-
     isUpperCase = !isUpperCase
   }
 }
@@ -114,3 +125,30 @@ window.addEventListener('keyup', function (e) {
     backspace.classList.remove('clicked')
   }
 })
+aButton.addEventListener('click', () => {
+  aAcentuationContainer.style.display = 'flex'
+})
+
+eButton.addEventListener('click', () => {
+  eAcentuationContainer.style.display = 'flex'
+})
+
+oButton.addEventListener('click', () => {
+  oAcentuationContainer.style.display = 'flex'
+})
+
+acentuationButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    aAcentuationContainer.style.display = 'none';
+  });
+});
+acentuationButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    oAcentuationContainer.style.display = 'none';
+  });
+});
+acentuationButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    eAcentuationContainer.style.display = 'none';
+  });
+});
