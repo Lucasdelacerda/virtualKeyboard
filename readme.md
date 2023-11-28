@@ -11,7 +11,6 @@ This virtual keyboard project is being developed using HTML, CSS, and JavaScript
   - [Technologies Used](#technologies-used)
   - [Installation and Usage](#installation-and-usage)
   - [Learning and Observations](#learning-and-observations)
-  - [Next Steps](#next-steps)
   - [Social Media](#social-media)
   - [Credits](#credits)
 
@@ -35,11 +34,6 @@ This virtual keyboard project is being developed using HTML, CSS, and JavaScript
 ## Learning and Observations
 
 During this project, I learned how to create a responsive virtual keyboard and manipulate the DOM with JavaScript to handle typing and other keyboard functions.
-
-## Next Steps
-
-The next steps for this project include:
-- Adding accentuation.
 
 ## Social Media
 
