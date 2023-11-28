@@ -41,7 +41,7 @@ spaces.addEventListener('click', () => {
 
 })
 enter.addEventListener("click", () => {
-  display.value = '\n'
+  display.value += '\n'
 })
 shift.addEventListener('click', () => {
   numbersAndLetters.forEach(upper => {
@@ -126,15 +126,33 @@ window.addEventListener('keyup', function (e) {
   }
 })
 aButton.addEventListener('click', () => {
+  if(isUpperCase){
   aAcentuationContainer.style.display = 'flex'
+}
+else{
+  aAcentuationContainer.style.display = 'none'
+}
+ isUpperCase = !isUpperCase
 })
 
 eButton.addEventListener('click', () => {
+if(isUpperCase){
   eAcentuationContainer.style.display = 'flex'
+}
+else{
+eAcentuationContainer.style.display = 'none'
+}
+isUpperCase = !isUpperCase
 })
 
 oButton.addEventListener('click', () => {
+  if(isUpperCase){
   oAcentuationContainer.style.display = 'flex'
+}
+else{
+oAcentuationContainer.style.display = 'none'
+}
+isUpperCase = !isUpperCase
 })
 
 acentuationButtons.forEach(button => {

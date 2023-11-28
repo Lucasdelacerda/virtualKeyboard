@@ -14,7 +14,7 @@
     <main>
         <!--display-->
         <section class="screen">
-            <input type="text" placeholder="Type here" id="display">
+           <textarea id="display" rows="4" placeholder="Type here"></textarea>
         </section>
         <section class="keyboard_container">
             <!--keyboard-->
@@ -23,8 +23,8 @@
                     <button class="key numbers-letters">1</button>
                     <button class="key numbers-letters">2</button>
                     <button class="key numbers-letters">3</button>
-                    <button class="key numbers-letters">5</button>
                     <button class="key numbers-letters">4</button>
+                    <button class="key numbers-letters">5</button>
                     <button class="key numbers-letters">6</button>
                     <button class="key numbers-letters">7</button>
                     <button class="key numbers-letters">8</button>
@@ -56,7 +56,12 @@
                         <button class="acentuation-key key">õ</button>
                     </div>
                     <button class="key numbers-letters">p</button>
-                    <button class="key numbers-letters">ç</button>
+                    <button id="enter" class="key special-key">
+                        <span class="material-symbols-outlined ">
+                            keyboard_return
+                        </span>
+                    </button>
+                    
 
                 </div>
                 <div class="line3 line">
@@ -79,11 +84,8 @@
                     <button class="key numbers-letters">j</button>
                     <button class="key numbers-letters">k</button>
                     <button class="key numbers-letters">l</button>
-                    <button id="enter" class="key special-key">
-                        <span class="material-symbols-outlined ">
-                            keyboard_return
-                        </span>
-                    </button>
+                    <button class="key numbers-letters">ç</button>
+                    
                 </div>
                 <div class="line4 line">
                     <button class="key numbers-letters">z</button>

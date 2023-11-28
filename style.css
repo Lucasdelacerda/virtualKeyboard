@@ -28,11 +28,12 @@ body {
 #display {
     border: none;
     width: 90%;
-    height: 4.7rem;
+    height: 14.7rem;
     font-size: 4rem;
     background: rgba(52, 133, 74, 0.973);
     color: black;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
 }
 
 #display::placeholder {
